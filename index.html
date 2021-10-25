@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Canigó</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 
 </head>
@@ -69,14 +70,70 @@
             </div>
             <img class="flordeneu-img" src="./img/03_flordeneu_image.png">
         </div>
+        <div class="section s6">
+            <div class="card card-right">
+                <h1>~ Guisla ~</h1>
+                <h3>
+                    Quan de sos avis al palau s’acosta,
+                    veu sa Guisla gentil a la finestra,
+                    entre els dos gerros de clavells que a riure
+                    surten quiscun en sa clavellinera;
+                    endolada la veu com una viuda i avergonyit abaixa els ulls a terra.
+                    Cada graó que de l’escala puja
+                    lo rega amb una llàgrima coenta;
+                    al capdamunt de tots ella és qui plora,
+                    com un desmai doblant sa hermosa testa.                    
+
+                    <p>Fragment del Cant X - Guisla, Canigó, Jacint Verdaguer</p>
+                </h3>
+            </div>
+            <img class="guisla-img" src="./img/05_Guisla_image.png">
+        </div>
         <div class="section s5">
-            <p style="font-size: 2rem;">Il·lustracions</p> <h2 style="font-size: 3rem;">Zoe Alabart</h2>
+            <div class="card">
+                <h1 style="font-size: 2.5rem;">~ Comte Tallaferro ~</h1>
+                <h3>
+                    Lo comte Tallaferro va com lo vent
+                    volant per les altures del Pirineu.
+                    Tan bon punt ahir vespre deixà l’aplec,
+                    seguiren-lo els fallaires en reguitzell;
+                    son fills d’eixes garrotxes, tots cepadencs,
+                    germans de les alzines i dels avets.                    
+
+                    <p>Fragment del Cant V - Tallaferro, Canigó, Jacint Verdaguer</p>
+                </h3>
+            </div>
+            <img class="tallaferro-img" src="./img/04_comte-tallaferro_image.png">
+        </div>
+        
+        <div class="section s7">
+            <div class="card card-right">
+                <h1>~ Guifré ~</h1>
+                <h3>
+                    Camí de Cornellà, lo compte Guifre
+                    va a prendre comiat de la comtessa;
+                    que els en troba de tristos aquells marges
+                    on al sol de l’amor ahir tot reia!
+                    Los arbres que s’inclinen remorosos,
+                    com si parlessin de son crim li sembla,
+                    i els joiosos aucells que hi saltironen li apar que esquerps eviten sa presència,
+                    l’un a l’altre contant-se l’homicidi,
+                    mal de contar amb ses arpades llengües.                    
+
+                    <p>Fragment del Cant X - Guisla, Canigó, Jacint Verdaguer</p>
+                </h3>
+            </div>
+            <img class="guifre-img" src="./img/06_guifre_image.png">
+        </div>
+        <div class="section">
+            <p style="font-size: 2rem;">Il·lustracions</p> 
+            <h2 style="font-size: 3rem;">Zoe Alabart</h2>
+            <p>(@zoealab.art)</p>
         </div>
 
     </div>
 
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"></script>
     <script  type="text/javascript">
         var myFullPage = new fullpage('#fullpage', {
@@ -88,6 +145,9 @@
             cards: false,
 	        cardsOptions: {perspective: 100, fadeContent: true, fadeBackground: true},
         });
+    </script>
+    <script>
+        AOS.init();
     </script>
 </body>
 </html>

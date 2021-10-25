@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
 
+:root{
+    --main-color: #5f4a46;
+}
+
+body{
+    color: var(--main-color);
+}
+
 h1{
     font-size: 5rem;
     font-weight: 400;
@@ -37,7 +45,7 @@ p{
 .card-right{
     position: absolute;
     right: 10%;
-    top:20%;
+    top:12%;
 }
 
 .s2{
@@ -68,5 +76,38 @@ p{
     height: 100vh;
     position: absolute;
     right: 0;
+    top: 0;
+}
+
+.s5{
+    background-image: url('./img/04_comte-tallaferro_pattern.png');
+}
+
+.tallaferro-img{
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.s6{
+    background-image: url('./img/05_guisla_pattern.png');
+}
+
+.guisla-img{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.s7{
+    background-image: url('./img/06_guifre_pattern.png');
+}
+
+.guifre-img{
+    height: 100vh;
+    position: absolute;
+    left: 0;
     top: 0;
 }
