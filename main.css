@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+h1{
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 0;
+}
+h2{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 0;
+}
+h3{
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin:  3rem 0;
+}
+
+p{
+    margin-top: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+.section{
+    background-image: url('./img/03_Flordeneu_pattern.png');
+}
+.card{
+    text-align: center;
+    width: 33%;
+    padding: 5rem;
+    margin: 3em;
+}
+
+.card-right{
+    position: absolute;
+    right: 10%;
+    top:20%;
+}
+
+.s2{
+    background-image: url('./img/01_Griselda_fons_pattern.png');
+}
+
+.griselda-img{
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.s3{
+    background-image: url('./img/02_Gentil_background_pattern.png');
+}
+
+.gentil-img{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.s4{
+    background-image: url('./img/03_Flordeneu_pattern.png');
+}
+.flordeneu-img{
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

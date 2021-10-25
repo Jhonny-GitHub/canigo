@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Canigó</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+    <div id="fullpage">
+        
+        <div class="section s1">
+            <h1>~ El Canigó ~</h1>
+            <h3>zoe alabart</h3>
+        </div>
+        <div class="section s2">
+            <div class="card">
+                <h1>~ Griselda ~</h1>
+                <h3>
+                    Al centre de la roda harmoniosa
+                    de les nines somriu la més hermosa,
+                    coronat de violes son front serè.
+                    Gentil prou la coneix, puix se somriuen,
+                    com dues flors que al mateix arbre viuen
+                    de la mateixa saba d’amor que les sosté.
+
+                    <p>Fragment del Cant I - L’aplec, Canigó, Jacint Verdaguer</p>
+                </h3>
+            </div>
+            <img class="griselda-img" src="./img/01 - Griselda - BG.png">
+        </div>
+        <div class="section s3">
+            <div class="card card-right">
+                <h1>~ Gentil ~</h1>
+                <h3>
+                    Amor, amor, on me pujares?
+                    On sou, amics? On sou, mos pares?
+                    I jo mateix, digau-me, on só?
+                    Digues-m’ho tu, Griselda bella,
+                    ma hermosa estrella
+                    de Canigó.
+                    [...]
+                    Mes, si jo et tinc, per què m’enyoro?
+                    si tu em somrius, doncs, de què ploro?
+                    Lo cor de l’home és una mar,
+                    tot l’univers no l’ompliria;
+                    Griselda mia,
+                    deixa’m plorar!
+                    <p>Cant de Gentil, Canigó, Jacint Verdaguer</p>
+                </h3>
+            </div>
+            <img class="gentil-img" src="./img/02_Gentil_image.png">
+        </div>
+        <div class="section s4">
+            <div class="card">
+                <h1>~ Flordeneu ~</h1>
+                <h3>
+                    Com la lluna creixent en nit ombrívola,
+                    riu i clareja sa serena cara
+                    i són sos ulls dues rients estrelles
+                    que el Canigó robà a la volta blava.
+
+                    <p>Fragment del Cant II - Flordeneu, Canigó, Jacint Verdaguer</p>
+                </h3>
+            </div>
+            <img class="flordeneu-img" src="./img/03_flordeneu_image.png">
+        </div>
+        <div class="section s5">
+            <p style="font-size: 2rem;">Il·lustracions</p> <h2 style="font-size: 3rem;">Zoe Alabart</h2>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"></script>
+    <script  type="text/javascript">
+        var myFullPage = new fullpage('#fullpage', {
+            autoScrolling: true,
+            navigation: true,
+            dragAndMove: false,
+            parallax: false,
+            parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+            cards: false,
+	        cardsOptions: {perspective: 100, fadeContent: true, fadeBackground: true},
+        });
+    </script>
+</body>
+</html>
