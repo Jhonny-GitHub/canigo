@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-
 </head>
 <body>
 
-    <div id="fullpage">
-        
-        <div class="section s1">
+    <div id="fullpage">        
+        <div class="section">
             <h1>~ El Canigó ~</h1>
             <h3>zoe alabart</h3>
+            <a class="begin-btn" href="#griselda">Començar</a>
         </div>
         <div class="section s2">
+            <img class="img-rt" src="./img/01 - Griselda - BG.png">
             <div class="card">
                 <h1>~ Griselda ~</h1>
                 <h3>
@@ -32,9 +32,9 @@
                     <p>Fragment del Cant I - L’aplec, Canigó, Jacint Verdaguer</p>
                 </h3>
             </div>
-            <img class="griselda-img" src="./img/01 - Griselda - BG.png">
         </div>
         <div class="section s3">
+            <img class="img-lt" src="./img/02_Gentil_image.png">
             <div class="card card-right">
                 <h1>~ Gentil ~</h1>
                 <h3>
@@ -54,9 +54,9 @@
                     <p>Cant de Gentil, Canigó, Jacint Verdaguer</p>
                 </h3>
             </div>
-            <img class="gentil-img" src="./img/02_Gentil_image.png">
         </div>
-        <div class="section s4">
+        <div class="section s4" >
+            <img class="img-rt" src="./img/03_flordeneu_image.png">
             <div class="card">
                 <h1>~ Flordeneu ~</h1>
                 <h3>
@@ -68,9 +68,9 @@
                     <p>Fragment del Cant II - Flordeneu, Canigó, Jacint Verdaguer</p>
                 </h3>
             </div>
-            <img class="flordeneu-img" src="./img/03_flordeneu_image.png">
         </div>
         <div class="section s6">
+            <img class="img-lt" src="./img/05_Guisla_image.png">
             <div class="card card-right">
                 <h1>~ Guisla ~</h1>
                 <h3>
@@ -87,9 +87,9 @@
                     <p>Fragment del Cant X - Guisla, Canigó, Jacint Verdaguer</p>
                 </h3>
             </div>
-            <img class="guisla-img" src="./img/05_Guisla_image.png">
         </div>
         <div class="section s5">
+            <img class="img-rt" src="./img/04_comte-tallaferro_image.png">
             <div class="card">
                 <h1 style="font-size: 2.5rem;">~ Comte Tallaferro ~</h1>
                 <h3>
@@ -103,10 +103,10 @@
                     <p>Fragment del Cant V - Tallaferro, Canigó, Jacint Verdaguer</p>
                 </h3>
             </div>
-            <img class="tallaferro-img" src="./img/04_comte-tallaferro_image.png">
         </div>
         
         <div class="section s7">
+            <img class="img-lt" src="./img/06_guifre_image.png">
             <div class="card card-right">
                 <h1>~ Guifré ~</h1>
                 <h3>
@@ -123,8 +123,8 @@
                     <p>Fragment del Cant X - Guisla, Canigó, Jacint Verdaguer</p>
                 </h3>
             </div>
-            <img class="guifre-img" src="./img/06_guifre_image.png">
         </div>
+
         <div class="section">
             <p style="font-size: 2rem;">Il·lustracions</p> 
             <h2 style="font-size: 3rem;">Zoe Alabart</h2>
@@ -138,6 +138,8 @@
     <script  type="text/javascript">
         var myFullPage = new fullpage('#fullpage', {
             autoScrolling: true,
+            anchors: ['inici', 'griselda', 'gentil', 'flordeneu', 'guisla', 'tallaferro', 'guifre'],
+            navigationTooltips: ['Inici', 'Griselda', 'Gentil', 'Flordeneu', 'Guisla', 'Comte Tallaferro', 'Guifré'],
             navigation: true,
             dragAndMove: false,
             parallax: false,

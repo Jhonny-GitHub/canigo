@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@1,600&display=swap');
 
 :root{
     --main-color: #5f4a46;
@@ -24,22 +24,40 @@ h3{
     font-weight: 400;
     font-family: 'Cinzel', serif;
     text-align: center;
-    margin:  3rem 0;
+    margin-top: 0px;
+    margin-bottom: 5.2rem;
+}
+
+.begin-btn{
+    margin: 0 auto;
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    padding: 15px 22px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
 }
 
 p{
+    font-size: 1.25rem;
+    font-family: 'Cormorant Garamond', serif;
     margin-top: 2rem;
     font-style: italic;
     text-align: center;
 }
 .section{
+    text-align: center;
     background-image: url('./img/03_Flordeneu_pattern.png');
 }
 .card{
     text-align: center;
+    position: relative;
     width: 33%;
     padding: 5rem;
     margin: 3em;
+    z-index: 2;
 }
 
 .card-right{
@@ -48,66 +66,46 @@ p{
     top:12%;
 }
 
-.s2{
-    background-image: url('./img/01_Griselda_fons_pattern.png');
-}
-
-.griselda-img{
-    height: 100vh;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.s3{
-    background-image: url('./img/02_Gentil_background_pattern.png');
-}
-
-.gentil-img{
+.img-lt{
     height: 100vh;
     position: absolute;
     left: 0;
     top: 0;
 }
-.s4{
-    background-image: url('./img/03_Flordeneu_pattern.png');
-}
-.flordeneu-img{
+.img-rt{
     height: 100vh;
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.s2{
+    background-image: url('./img/01_Griselda_fons_pattern.png');
+}
+
+
+.s3{
+    background-image: url('./img/02_Gentil_background_pattern.png');
+}
+
+.s4{
+    background-image: url('./img/03_Flordeneu_pattern.png');
 }
 
 .s5{
     background-image: url('./img/04_comte-tallaferro_pattern.png');
 }
 
-.tallaferro-img{
-    height: 100vh;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
 .s6{
     background-image: url('./img/05_guisla_pattern.png');
-}
-
-.guisla-img{
-    height: 100vh;
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 .s7{
     background-image: url('./img/06_guifre_pattern.png');
 }
 
-.guifre-img{
-    height: 100vh;
-    position: absolute;
-    left: 0;
-    top: 0;
+.fp-tooltip{
+    color: var(--main-color) !important;
+    font-weight: 400 !important;
+    font-family: 'Cinzel', serif !important;
 }
