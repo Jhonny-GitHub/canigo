@@ -25,7 +25,6 @@ h3{
     font-family: 'Cinzel', serif;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 5.2rem;
 }
 
 .begin-btn{
@@ -108,4 +107,56 @@ p{
     color: var(--main-color) !important;
     font-weight: 400 !important;
     font-family: 'Cinzel', serif !important;
+}
+
+@media (max-width: 450px) {
+    h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-family: 'Cinzel', serif;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .card{
+        border-radius: 15px;
+        font-size: 12px;
+        width: 300px;
+        padding: 10px;
+        z-index: 2;
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        transform: translateX(-200px);
+        max-height: 350px;
+        background:rgba(255, 255, 255, 0.6);        
+        
+    }
+
+    .card-right{
+        top: auto;
+        position: absolute;
+        left: 50%;
+        bottom: 5px;
+        transform:translateX(-200px);
+        max-height: 350px;
+    }
+    p{
+        font-size: 16px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    h3{
+        margin-top: 15px;
+    }
+
+    .flordeneu{
+        right: -220px;
+    }
+
+    #fp-nav.fp-right{
+        right: -2px;
+    }
+    
 }
